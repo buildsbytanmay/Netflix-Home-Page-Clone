@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.first {
+    height: 70vh;
+    background-image: url(/Assets/Images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 80vw;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 9.25rem;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.select {
+    display: flex;
+    width: 7.78rem;
+    height: 2rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    outline: none;
+}
+
+option {
+    color: rgb(77, 76, 76);
+}
+
+.signinbutton {
+    width: 4.65rem;
+    height: 2rem;
+    background-color: rgb(229, 9, 20);
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+}
