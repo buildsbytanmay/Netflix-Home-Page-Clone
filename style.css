@@ -243,3 +243,26 @@ section {
     top: 70px;
     z-index: 1;
 }
+
+.section {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    max-width: 450px;
+    height: auto;
+}
+
+.section1 img {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.section2 {
+    width: 400px;
+    padding-bottom: 50px;
+}
