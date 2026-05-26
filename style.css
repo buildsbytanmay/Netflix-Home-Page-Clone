@@ -207,3 +207,39 @@ section {
 .sec1 {
     width: 500px;
 }
+
+.sec1 h1,
+.section2 h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.sec1 p,
+.section2 p {
+    font-size: 1.25rem;
+    font-weight: 350;
+    text-align: left;
+}
+
+.sec2 {
+    position: relative;
+    max-width: 450px;
+}
+
+.sec2 img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.sec2 video {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    right: 30px;
+    top: 70px;
+    z-index: 1;
+}
