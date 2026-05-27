@@ -266,3 +266,8 @@ section {
     width: 400px;
     padding-bottom: 50px;
 }
+
+.sectionvid video {
+    right: 45px;
+    top: 20px;
+}
