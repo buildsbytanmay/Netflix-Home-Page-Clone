@@ -271,3 +271,38 @@ section {
     right: 45px;
     top: 20px;
 }
+
+.faq-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.faq {
+    padding-bottom: 30px;
+    width: 60vw;
+}
+
+.faq h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.faq .questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.faq .questions .que {
+    padding: 20px 20px;
+    background-color: rgb(45, 45, 45);
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
