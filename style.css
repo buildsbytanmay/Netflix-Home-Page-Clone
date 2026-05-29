@@ -306,3 +306,41 @@ section {
     justify-content: space-between;
     align-items: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.foot-p {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 60vw;
+    text-align: left;
+}
+
+.footsection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60vw;
+    gap: 5px;
+}
+
+.foot ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+}
+
+.foot {
+    width: calc((60vw - total_gap) / 4);
+}
+
+.faq-section .faq .questions .que:hover {
+    background-color: #414141;
+}
