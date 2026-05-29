@@ -344,3 +344,17 @@ footer {
 .faq-section .faq .questions .que:hover {
     background-color: #414141;
 }
+
+.foot-select {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+}
+
+.final-text {
+    text-align: left;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
