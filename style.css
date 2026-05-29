@@ -358,3 +358,70 @@ footer {
     padding: 20px 0px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 959px) {
+    .logo {
+        width: 5.57rem;
+    }
+
+    nav {
+        width: 93.4vw;
+        height: 80px;
+    }
+
+    .hero1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .hero1 p {
+        font-size: 0.99rem;
+    }
+
+    .hero2 h3 {
+        font-size: 1rem;
+    }
+
+    .sec1 h1,
+    .section2 h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .sec1 p,
+    .section2 p {
+        font-size: 0.99rem;
+        text-align: center;
+    }
+
+    .faq h1 {
+        font-size: 1.4rem;
+    }
+
+    .que span {
+        font-size: 1rem;
+    }
+
+    .faq {
+        width: 90vw;
+    }
+
+    .faq .questions .que {
+        text-align: left;
+        padding: 22px 22px;
+    }
+    .footsection{
+        width: 90vw;
+        row-gap: 25px;
+        justify-content: space-evenly;
+    }
+    .foot{
+        width: 40vw;
+    }
+    .foot-p{
+        width: 90vw;
+    }
+    .foot-select{
+        width: 90vw;
+        margin: auto;
+    }
+}
