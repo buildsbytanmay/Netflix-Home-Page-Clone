@@ -409,19 +409,45 @@ footer {
         text-align: left;
         padding: 22px 22px;
     }
-    .footsection{
+
+    .footsection {
         width: 90vw;
         row-gap: 25px;
         justify-content: space-evenly;
     }
-    .foot{
+
+    .foot {
         width: 40vw;
     }
-    .foot-p{
+
+    .foot-p {
         width: 90vw;
     }
-    .foot-select{
+
+    .foot-select {
         width: 90vw;
         margin: auto;
     }
 }
+
+    @media screen and (max-width: 599px) {
+        .first-select select {
+            width: 14px;
+        }
+
+        .first-select {
+            width: 3.9rem;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .sec2 video {
+            right: 20px;
+            top: 32px;
+        }
+
+        .sectionvid video {
+            right: 8px;
+            top: 8px;
+        }
+    }
