@@ -6,6 +6,8 @@ A pixel-perfect, responsive clone of the **Netflix India** homepage built with p
 
 ## 🖥️ Preview
 
+🔗 **Live Demo:** [https://buildsbytanmay.github.io/Netflix-Home-Page-Clone/](https://buildsbytanmay.github.io/Netflix-Home-Page-Clone/)
+
 > Hero section with background image, feature sections with embedded videos, FAQ accordion layout, and a full footer — all matching the real Netflix India landing page.
 
 ---
