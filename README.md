@@ -27,7 +27,7 @@ A pixel-perfect, responsive clone of the **Netflix India** homepage built with p
 ## 📁 Project Structure
 
 ```
-Netflix Clone 3/
+Netflix Clone/
 ├── index.html
 ├── style.css
 ├── favicon.ico
